@@ -8,6 +8,7 @@
 # Modify default IP
 git clone https://github.com/tty228/luci-app-serverchan.git package/serverchan
 git clone https://github.com/kuoruan/luci-app-frpc.git package/frpc
+git clone https://github.com/rufengsuixing/luci-app-syncdial.git package/syncdial
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
