@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Build Four2
+name: Build Five
 
 on:
   release:
